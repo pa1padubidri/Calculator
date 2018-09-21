@@ -1,0 +1,76 @@
+* {
+	background-color: black;
+}
+
+.calculator {
+    position: fixed;
+    left: 50%;
+    width: 360px;
+    height: 640px;
+    margin-left: -180px;
+}
+
+.screen {
+    background-color: white;
+    width: 100%;
+    height: 43.75%;
+}
+
+.screen div {
+    background-color: white;
+    font-size: 40px;
+    line-height: 140px;
+    text-align: right;
+    width: 100%;
+    height: 50%;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+span {
+	cursor: pointer;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 32px;
+    text-align: center;
+}
+
+.keys {
+    float: left;
+    width: 75%;
+    height: 56.25%;
+    background-color: #464646;
+}
+
+.keys span {
+    float: left;
+    width: 33.333333%;
+    height: 25%;
+    line-height: 90px;
+    background-color: #464646;
+    color: white;
+}
+
+.keys span:hover {
+    border-radius: 100%;
+    background-color: #757575;
+}
+
+.operators {
+    float: left;
+    width: 25%;
+    height: 56.25%;
+    background-color: #757575;
+}
+
+.operators span {
+    float: left;
+    background-color: #757575;
+    width: 100%;
+    height: 20%;
+    line-height: 72px;
+    color: white;	
+}
+
+.operators span:hover {
+	border-radius: 100%;
+    background-color: #aeaeae;
+}
